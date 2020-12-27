@@ -38,6 +38,11 @@
                         </div>
 
                         <div class="col-10 p-4" style="background-color: #ffffff;">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" name="studentname" required>
+                        </div>
+
+                        <div class="col-10 p-4" style="background-color: #ffffff;">
                             <label for="exampleFormControlTextarea1" class="form-label h6 p-2">Question ID</label>
                             <input type="text" id="exampleFormControlTextarea1" value="20001" disabled>
                             <textarea class="form-control" rows="5" placeholder="Answer" name="ans1"></textarea>
